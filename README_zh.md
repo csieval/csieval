@@ -3,6 +3,11 @@
 > 用于 5G/6G 无线系统中神经网络 CSI（信道状态信息）模型的统一评测框架。支持两个互补任务——
 > **CSI 反馈压缩** 和 **CSI 频域预测** ——使用统一的 API 和完全一致的报告格式。
 
+[![PyPI version](https://badge.fury.io/py/csi-eval.svg)](https://pypi.org/project/csi-eval/)
+[![Python >= 3.9](https://img.shields.io/badge/python-3.9+-blue.svg)](https://pypi.org/project/csi-eval/)
+[![PyTorch >= 2.0](https://img.shields.io/badge/pytorch-2.0+-red.svg)](https://pypi.org/project/csi-eval/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/csieval/csieval/blob/main/LICENSE)
+
 ---
 
 ## 目录
