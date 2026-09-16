@@ -5,8 +5,10 @@
 > **CSI Feedback Compression** and **CSI Frequency-Domain Prediction** — under one
 > consistent API with identical report formats.
 
-[![Python >= 3.9](https://img.shields.io/badge/python-3.9+-blue.svg)](#)
-[![PyTorch >= 2.0](https://img.shields.io/badge/pytorch-2.0+-red.svg)](#)
+[![PyPI version](https://badge.fury.io/py/csi-eval.svg)](https://pypi.org/project/csi-eval/)
+[![Python >= 3.9](https://img.shields.io/badge/python-3.9+-blue.svg)](https://pypi.org/project/csi-eval/)
+[![PyTorch >= 2.0](https://img.shields.io/badge/pytorch-2.0+-red.svg)](https://pypi.org/project/csi-eval/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/csieval/csieval/blob/main/LICENSE)
 
 ---
 
