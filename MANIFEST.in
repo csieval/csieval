@@ -1,0 +1,21 @@
+# Include essential documentation
+include README.md
+include README_zh.md
+include LICENSE
+include requirements.txt
+
+# Include package data
+recursive-include csi_eval *.yaml *.yml *.json
+recursive-include csi_eval/feedback_eval/static *.png *.jpg *.svg
+recursive-include csi_eval/feedback_eval/presets *.yaml
+
+# Exclude tests and examples from distribution
+recursive-exclude csi_eval/*/tests *
+recursive-exclude csi_eval/*/data_generation_scripts *
+exclude csi_eval/feedback_eval/tests/*
+exclude csi_eval/pre_eval/tests/*
+
+# Exclude development files
+global-exclude __pycache__
+global-exclude *.py[co]
+global-exclude .DS_Store

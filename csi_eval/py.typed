@@ -1,0 +1,5 @@
+"""Type stubs marker for csi_eval package.
+
+This empty file indicates that the package contains inline type hints
+and should be recognized by type checkers like mypy.
+"""

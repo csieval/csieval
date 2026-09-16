@@ -1,0 +1,7 @@
+# Core runtime — required for all csi_eval functionality
+torch>=2.0.0
+numpy>=1.24.0
+pyyaml>=6.0
+tqdm>=4.66.0
+matplotlib>=3.5.0
+pandas>=2.0.0

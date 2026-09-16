@@ -1,0 +1,41 @@
+# EVCsiNet for WAIR-D 2.6GHz
+#
+# This YAML mirrors DEFAULT_DATASET_2_6GHZ + DEFAULT_MODEL_HINT in
+# csi_feedback_eval/core/config.py. It is kept here as a reference
+# artifact only; the framework does NOT load YAML by default.
+#
+# To use a different config, simply pass kwargs to the Evaluator or
+# instantiate EvalConfig directly. Example:
+#
+#   from csi_feedback_eval import Evaluator
+#   ev = Evaluator(
+#       task="eigenvector_feedback",
+#       checkpoint="runs/best.pt",
+#       data_path="data/Dataset/wair_d_output/2_6GHz",
+#   )
+#
+# Dataset section (these are the 2.6 GHz defaults, code-defined):
+#
+#   path: data/Dataset/wair_d_output/2_6GHz
+#   config: 2_6GHz
+#   scenario: I
+#   subband_size: 8        # 104 / 8 = 13 subbands
+#   use_cache: true
+#   phase_fix: true
+#   normalize_input_power: false
+#   eig_batch_size: 64
+#   num_workers: 4
+#
+# Model section (hint for placeholder when only a state_dict is given):
+#
+#   nt: 32
+#   n_subbands: 13
+#   embed_dim: 64
+#   nhead: 4
+#   num_layers: 6
+#   reduction: 8
+#   compressed_dim: null
+#   quant_bits: 0
+#   use_positional_encoding: true
+#   learnable_pe: false
+#   embedding_scale: 8.0   # sqrt(64)
